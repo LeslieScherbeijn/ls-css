@@ -1,11 +1,68 @@
+/*-------------------------------------------------------------------------GENERAL------------------------------------------------------------------------------------------------------------*/
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html {
   font-size: 62.5%;
 }
 
+/*-------------------------------------------------------------------------IMPORTS------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------HEADINGS------------------------------------------------------------------------------------------------------------*/
+h1 {
+  font-size: 7.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 6.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 5.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 4.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 3.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 2.5rem;
+  padding: 1rem;
+  font-weight: normal;
+}
+
+/*-------------------------------------------------------------------------TITLE CLASS------------------------------------------------------------------------------------------------------------*/
+.title {
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.subtitle {
+  font-weight: lighter;
+  color: grey;
+  padding-top: 0;
+}
+
+/*CONTAINER CLASSES*/
+.container {
+  padding-left: 4.7rem;
+  padding-right: 4.7rem;
+}
 /*# sourceMappingURL=style.css.map */
